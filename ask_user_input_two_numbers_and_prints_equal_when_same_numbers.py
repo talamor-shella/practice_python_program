@@ -4,6 +4,8 @@
 num_1 = int(input("Enter a number: "))
 num_2 = int(input("Enter a number: "))
 
-#if statement to check if two numbers are equal
-#prints equal when numbers are the same
+#if statement to check and print if two numbers are equal 
+if num_1 == num_2:
+    print("Equal")
+
 
