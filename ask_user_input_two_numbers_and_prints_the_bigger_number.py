@@ -5,5 +5,7 @@ number_1 = int(input("Enter a number: "))
 number_2 = int(input("Enter a number: "))
 
 #Make a variable for determining the bigger number
+bigger_num = max(number_1, number_2)
+
 #prints the bigger number
 
