@@ -8,4 +8,4 @@ number_2 = int(input("Enter a number: "))
 bigger_num = max(number_1, number_2)
 
 #prints the bigger number
-
+print(f"The bigger number is: {bigger_num}")
