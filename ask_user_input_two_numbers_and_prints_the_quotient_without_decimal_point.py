@@ -4,5 +4,8 @@
 num1 = int(input("Enter a number: "))
 num2 = int(input("Enter a number: "))
 
-#use floor division operator to return the nearest whole number
+#num1 // num2
+quotient = num1 // num2
+
 #prints the quotient without decimal point
+print(f"The quotient without decimal point is: {quotient}")
