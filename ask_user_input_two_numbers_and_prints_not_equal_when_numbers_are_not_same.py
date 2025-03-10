@@ -5,4 +5,5 @@ num1 = int(input("Enter a number: "))
 num2 = int(input("Enter a number: "))
 
 #if statement to check if numbers are not equal
+if num1 != num2: 
 #prints not equal if not same
