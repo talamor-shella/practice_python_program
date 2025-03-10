@@ -4,6 +4,8 @@
 numbers = []
 
 #for loop to make user input numbers ten times then append it to empty list
+for i in range(10):
+    user_input = int(input(f"Enter a number {i+1}: "))
 #assign the first number to first index
 #get the sum of remaining numbers
 #first number - sum of remaining numbers
