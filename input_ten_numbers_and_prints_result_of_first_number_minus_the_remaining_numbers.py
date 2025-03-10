@@ -12,5 +12,7 @@ for i in range(10):
 first_number = numbers[0]
 
 #get the sum of remaining numbers
+sum1 = sum(numbers[1:])
+
 #first number - sum of remaining numbers
 
