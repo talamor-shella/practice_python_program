@@ -5,4 +5,6 @@ num1 = int(input("Enter a number: "))
 num2 = int(input("Enter a number: "))
 
 #variable that returns the difference of two numbers
+diff = num1 - num2 
+
 #prints the difference
