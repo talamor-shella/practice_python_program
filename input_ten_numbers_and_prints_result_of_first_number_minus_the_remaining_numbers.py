@@ -7,8 +7,10 @@ numbers = []
 for i in range(10):
     user_input = int(input(f"Enter a number {i+1}: "))
     numbers.append(user_input)
-    
+
 #assign the first number to first index
+first_number = numbers[0]
+
 #get the sum of remaining numbers
 #first number - sum of remaining numbers
 
