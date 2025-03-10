@@ -9,6 +9,7 @@ for i in range(10):
 
     #if statement to check if the number is even 
     if i % 2 == 0:
-        even_count += 1
-#even count += 1 
-print (even_count)
+        #even count += 1
+        even_count += 1  
+#print even_count
+print ("There are {even_count} even")
