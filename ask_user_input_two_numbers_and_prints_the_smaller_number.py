@@ -3,5 +3,8 @@
 #ask user input two numbers
 num1 = int(input("Enter a number: "))
 num2 = int(input("Enter a number: "))
+
 #use min() function to return the smallest value
+smaller_number = min(num1, num2)
+
 #prints the smallest number
