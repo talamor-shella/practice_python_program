@@ -8,3 +8,4 @@ num2 = int(input("Enter a number: "))
 remainder = num1 % num2 
 
 #print the remainder
+print(f"The remainder is: {remainder}")
