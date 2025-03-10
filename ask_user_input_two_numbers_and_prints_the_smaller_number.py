@@ -8,3 +8,4 @@ num2 = int(input("Enter a number: "))
 smaller_number = min(num1, num2)
 
 #prints the smallest number
+print(f"The smaller number is: {smaller_number}")
