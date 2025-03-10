@@ -15,4 +15,6 @@ first_number = numbers[0]
 sum1 = sum(numbers[1:])
 
 #first number - sum of remaining numbers
+result = first_number - sum1
 
+print(result)
