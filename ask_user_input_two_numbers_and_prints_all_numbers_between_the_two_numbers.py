@@ -9,5 +9,6 @@ if num1 > num2:
     num1, num2 = num2, num1 #to check num1 is the smaller number
 
 #for loop in ascending order
-
-#print the numbers between the two numbers
+for i in range(num1, num2 + 1):
+    #print the numbers between the two numbers
+    
