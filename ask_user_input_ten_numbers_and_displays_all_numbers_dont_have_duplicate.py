@@ -10,13 +10,14 @@ for i in range(10):
     #append it to empty list 
     numbers.append(num)
 
+#gives the user lists of input numbers
+print(numbers)
+
 #for loop and if statement 
 for num in numbers: 
     if numbers.count(num) == 1: #counts the numbers and checks the uniqueness of numbers
         
         #prints the numbers that dont have duplicate
         print(num)
-
-#if statement for all numbers that have duplicate
-if numbers.count(num) != 1:
+if numbers.count(num) != 1: #if statement for all numbers that have duplicate
     print("All numbers have duplicate")
