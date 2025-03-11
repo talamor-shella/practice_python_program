@@ -7,5 +7,9 @@ numbers = []
 for i in range(10):
     num = int(input(f"Enter a number {i+1}: "))
     
-#append it to empty list 
+    #append it to empty list 
+    numbers.append(num)
+
+print(numbers) #checks the user input append to empty list 
+
 #for loop and if statement 
