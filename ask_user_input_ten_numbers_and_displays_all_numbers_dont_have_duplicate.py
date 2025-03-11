@@ -10,6 +10,7 @@ for i in range(10):
     #append it to empty list 
     numbers.append(num)
 
-print(numbers) #checks the user input append to empty list 
-
 #for loop and if statement 
+for num in numbers: 
+    if numbers.count(num) == 1: #counts the numbers and checks the uniqueness of numbers
+        print(num)
