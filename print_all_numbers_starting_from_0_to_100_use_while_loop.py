@@ -3,6 +3,10 @@
 #set odd number variable to 0
 odd_numbers = 0
 
-#use while loop 
-#use addition assignment operator
-#prints all the odd number
+#odd_number < 101
+while odd_numbers < 101:
+    
+    #use addition assignment operator
+    odd_numbers += 2 
+    #prints all the odd number
+    print(odd_numbers)
