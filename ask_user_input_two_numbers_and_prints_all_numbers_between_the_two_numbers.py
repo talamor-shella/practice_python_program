@@ -5,6 +5,9 @@ num1 = int(input("Enter a number: "))
 num2 = int(input("Enter a number: "))
 
 #if statement for swapping numbers 
+if num1 > num2:
+    num1, num2 = num2, num1 #to check num1 is the smaller number
 
 #for loop in ascending order
+
 #print the numbers between the two numbers
