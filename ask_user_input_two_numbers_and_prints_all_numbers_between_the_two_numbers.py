@@ -11,4 +11,4 @@ if num1 > num2:
 #for loop in ascending order
 for i in range(num1, num2 + 1):
     #print the numbers between the two numbers
-    
+    print(i)
