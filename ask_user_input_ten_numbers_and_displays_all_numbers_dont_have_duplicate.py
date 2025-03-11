@@ -13,4 +13,10 @@ for i in range(10):
 #for loop and if statement 
 for num in numbers: 
     if numbers.count(num) == 1: #counts the numbers and checks the uniqueness of numbers
+        
+        #prints the numbers that dont have duplicate
         print(num)
+
+#if statement for all numbers that have duplicate
+if numbers.count(num) != 1:
+    print("All numbers have duplicate")
