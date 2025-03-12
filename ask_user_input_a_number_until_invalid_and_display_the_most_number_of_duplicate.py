@@ -13,20 +13,24 @@ try:
 except ValueError:
     print("Invalid!")
 
-#returns the duplicate list in ascending order
+#returns the numbers list in ascending order
 numbers.sort()
-print(numbers)
+
 #dictionary for counting recurrence of numbers in list
-count_dup = {}
+recurrence = {}
 
 #for loop
 for num in numbers:
 
-    #adds one 
-    if num in count_dup:
-        count_dup[num] += 1
+    if num in recurrence:
+        recurrence[num] += 1 #increases count by one if it already exist in dictionary
+
     else:
-        count_dup[num] = 1
+        recurrence[num] = 1 #creates new entry if num does not exist in dictionary
+
+most_recurrence = max(recurrence, key=recurrence.get) #to select the key with most recurrence in dictionary
+
+
     
 
 
