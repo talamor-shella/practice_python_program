@@ -10,6 +10,8 @@ for i in range(10):
     #append the ten input numbers to empty list 
     numbers.append(num)
 
-print(numbers) #for checking 
-
 #for loop statement to display all numbers and first entry of with duplicate
+for num in numbers:
+    if numbers.count(num) > 1: 
+        numbers.remove(num)
+    print(num)
