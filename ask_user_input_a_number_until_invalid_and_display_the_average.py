@@ -18,3 +18,5 @@ sum_of_numbers = sum(numbers)
 
 # result of sum divide to len of list
 result = sum_of_numbers / len(numbers)
+
+print(f"The average is: {result}")
