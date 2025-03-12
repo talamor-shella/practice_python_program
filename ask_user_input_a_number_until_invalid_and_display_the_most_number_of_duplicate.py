@@ -13,15 +13,23 @@ try:
 except ValueError:
     print("Invalid!")
 
-# create list for duplicate
-duplicate = []
+#returns the duplicate list in ascending order
+numbers.sort()
+print(numbers)
+#dictionary for counting recurrence of numbers in list
+count_dup = {}
 
-#for loop 
+#for loop
 for num in numbers:
 
-    #checks the numbers with duplicates
-    if numbers.count(num) > 1: 
-        duplicate.append(num)
+    #adds one 
+    if num in count_dup:
+        count_dup[num] += 1
+    else:
+        count_dup[num] = 1
+    
 
-duplicate.sort()
-print(duplicate)
+
+
+
+    
