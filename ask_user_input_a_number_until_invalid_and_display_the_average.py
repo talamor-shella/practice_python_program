@@ -13,6 +13,7 @@ try:
 except ValueError:
     print("Invalid")
 
-
 #get the sum
+sum_of_numbers = sum(numbers)
+
 # result of sum divide to len of list
