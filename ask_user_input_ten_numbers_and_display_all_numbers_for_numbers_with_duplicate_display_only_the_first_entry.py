@@ -12,8 +12,19 @@ for i in range(10):
 
 print(numbers)
 
+#empty list to store all numbers and only the first entry
+new_list = []
+
 #for loop statement to display all numbers and first entry of with duplicate
 for num in numbers:
-    if numbers.count(num) > 1: 
-        numbers.remove(num)
-    print(num) #duplicates are not properly handed
+   
+   #checks if the num does not exist in new list
+   if num not in new_list: 
+       
+       #prints the numbers not in new list 
+       print(num) 
+
+       #add it to new list 
+       new_list.append(num)
+       
+    
