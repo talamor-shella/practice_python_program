@@ -3,6 +3,11 @@
 #empty list 
 numbers = []
 
-#for loop to make user input ten numbers
-#append the ten input numbers to empty list 
+#make user input ten numbers
+for i in range(10):
+    num = int(input(f"Enter a number {i+1}: "))
+    
+    #append the ten input numbers to empty list 
+    
+
 #for loop statement to display all numbers and first entry of with duplicate
