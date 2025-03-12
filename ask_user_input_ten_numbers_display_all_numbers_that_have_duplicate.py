@@ -10,10 +10,21 @@ for i in range(10):
     #adds the input numbers to the list
     numbers.append(num)
 
-#for loop 
+#stores duplicate numbers in a single variable
+duplicate = set()
+
+#loop through numbers
 for num in numbers: 
     
-    if numbers.count(num) > 1: #checks the numbers that have duplicate
+    #checks numbers with duplicate
+    if numbers.count(num) > 1:
+
+        #adds duplicate
+        duplicate.add(num)
+
+#display the list of user inputs
+print(f"Inputs: {numbers}")
+
+#prints numbers with unique duplicate
+print("Duplicates", duplicate)
         
-        #prints the numbers that have duplicate
-        print(num) 
