@@ -1,7 +1,7 @@
 #Prog02: Create a program that ask user to input a number, continue asking until the user input is invalid. Display the number with the most number of duplicate.
 
 #empty list 
-number = []
+numbers = []
 
 #try-except and while loop to input number until invalid
 try: 
@@ -9,12 +9,18 @@ try:
         num = int(input("Enter a number: "))
 
         #append the numbers in empty list
-        number.append(num)
+        numbers.append(num)
 except ValueError:
     print("Invalid!")
 
-print(number) #for checking only if the input numbers are on the list
+# create list for duplicate
+duplicate = []
 
 #for loop 
+for num in numbers:
 
-# create list for duplicate
+    #checks the numbers with duplicates
+    if numbers.count(num) > 1: 
+        duplicate.append(num)
+
+print(duplicate) #for checking only if duplicate numbers are in the list
