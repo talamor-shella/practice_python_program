@@ -13,6 +13,7 @@ try:
 except ValueError: 
     print("Invalid!")
 
-print(numbers) #for checking the list 
 #variable that returns the highest number
+highest_number = max(numbers)
+
 #print the highest number in the list
