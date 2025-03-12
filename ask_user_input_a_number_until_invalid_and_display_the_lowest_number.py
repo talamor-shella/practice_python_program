@@ -20,5 +20,5 @@ print(f"Input numbers: {numbers}")
 lowest_num = min(numbers)
 
 #prints the lowest value
-
+print(f"The lowest number is: {lowest_num}")
 
