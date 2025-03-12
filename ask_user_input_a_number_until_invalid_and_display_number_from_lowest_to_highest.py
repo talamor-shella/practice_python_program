@@ -11,7 +11,10 @@ try:
         #append the inputted numbers in empty listv
         numbers.append(num)
 except ValueError:
-    print("Invalid")
-
+    print("Invalid! must be an integer")
+    
 #use sort
-numbers.sort(num)
+numbers.sort()
+
+#after sorting print the numbers in the list
+print(f"The numbers from lowest to highest: {numbers}")
