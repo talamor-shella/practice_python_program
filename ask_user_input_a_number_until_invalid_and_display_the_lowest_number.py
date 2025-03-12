@@ -13,8 +13,12 @@ try:
 except ValueError:
     print("Invalid")
 
-print(numbers) #for checking the list of numbers
+#displays the list of numbers inputted
+print(f"Input numbers: {numbers}")
 
 #variable that returns the lowest value
+lowest_num = min(numbers)
+
 #prints the lowest value
+
 
