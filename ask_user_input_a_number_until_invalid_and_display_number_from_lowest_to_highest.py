@@ -7,10 +7,11 @@ numbers = []
 try:
     while True:
         num = int(input("Enter a number: "))
+        
+        #append the inputted numbers in empty listv
         numbers.append(num)
 except ValueError:
     print("Invalid")
 
-print(numbers)
-#append the inputted numbers in empty list
 #use sort
+numbers.sort(num)
