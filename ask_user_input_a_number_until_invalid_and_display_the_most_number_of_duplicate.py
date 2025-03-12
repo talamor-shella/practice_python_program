@@ -16,6 +16,9 @@ except ValueError:
 #returns the numbers list in ascending order
 numbers.sort()
 
+#displays the list of numbers in ascending order
+print(numbers)
+
 #dictionary for counting recurrence of numbers in list
 recurrence = {}
 
@@ -30,6 +33,7 @@ for num in numbers:
 
 most_recurrence = max(recurrence, key=recurrence.get) #to select the key with most recurrence in dictionary
 
+print(f"The number with the most number of duplicate is: {most_recurrence}")
 
     
 
