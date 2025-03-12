@@ -9,6 +9,7 @@ for i in range(10):
     
     #adds the input numbers to the list
     numbers.append(num)
-#if statement 
 
-print(numbers)
+#if statement 
+if numbers.count(num) > 1: 
+    print(numbers)
