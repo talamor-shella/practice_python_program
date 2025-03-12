@@ -10,6 +10,10 @@ for i in range(10):
     #adds the input numbers to the list
     numbers.append(num)
 
-#if statement 
-if numbers.count(num) > 1: 
-    print(numbers)
+#for loop 
+for num in numbers: 
+    
+    if numbers.count(num) > 1: #checks the numbers that have duplicate
+        
+        #prints the numbers that have duplicate
+        print(num) 
