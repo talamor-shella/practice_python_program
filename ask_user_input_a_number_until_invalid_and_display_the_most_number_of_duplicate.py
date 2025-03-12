@@ -23,4 +23,5 @@ for num in numbers:
     if numbers.count(num) > 1: 
         duplicate.append(num)
 
-print(duplicate) #for checking only if duplicate numbers are in the list
+duplicate.sort()
+print(duplicate)
