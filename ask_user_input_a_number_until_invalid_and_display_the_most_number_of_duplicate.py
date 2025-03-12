@@ -2,5 +2,10 @@
 
 #empty list 
 #try-except and while loop to input number until invalid
+try: 
+    while True:
+        num = int(input("Enter a number: "))
+except ValueError:
+    print("Invalid!")
 #for loop 
 # create list for duplicate
