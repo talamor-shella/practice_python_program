@@ -7,3 +7,4 @@ number = (input("Enter a number: "))
 fill_zeros = number.zfill(6)
 
 #print the number in 6 digit format
+print(fill_zeros)
