@@ -4,4 +4,6 @@
 full_name = input("Enter your fullname: ").title()
 
 #use strip method
+strip_name = full_name.strip()
+
 #print the input in pascal case
