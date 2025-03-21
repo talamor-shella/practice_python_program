@@ -4,3 +4,4 @@
 full_name = input("Enter your full name: ").lower()
 
 #print the input
+print(full_name)
