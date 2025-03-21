@@ -7,3 +7,4 @@ full_name = input("Enter your fullname: ").strip()
 char_count = len(full_name)
 
 #print the user input
+print(char_count)
