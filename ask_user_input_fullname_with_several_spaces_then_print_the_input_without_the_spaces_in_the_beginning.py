@@ -4,4 +4,7 @@
 full_name = input("Enter your fullname: ")
 
 #use lstrip()
+strip_name= full_name.lstrip()
+
 #print the input without spaces in beginning
+
