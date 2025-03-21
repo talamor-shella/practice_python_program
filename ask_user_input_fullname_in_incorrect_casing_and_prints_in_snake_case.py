@@ -4,4 +4,6 @@
 full_name = input("Enter your fullname: ").lower()
 
 #use replace() method
+snake_case = full_name.replace(" ","_")
+
 #print input in snake case
