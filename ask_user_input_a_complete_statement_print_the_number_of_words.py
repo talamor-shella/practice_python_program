@@ -4,3 +4,4 @@
 full_name = input("Enter a statement: ").split()
 
 #print the user input and use len()
+print(len(full_name))
