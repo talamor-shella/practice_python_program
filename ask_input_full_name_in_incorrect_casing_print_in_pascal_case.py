@@ -3,7 +3,8 @@
 #ask user input and use title() method
 full_name = input("Enter your fullname: ").title()
 
-#use strip method
-strip_name = full_name.strip()
+#use replace method
+pascal_case = full_name.replace(" ","")
 
 #print the input in pascal case
+print(pascal_case)
